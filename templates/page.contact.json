@@ -7,6 +7,46 @@
         "padding_bottom": 36
       }
     },
+    "16431278012f042340": {
+      "type": "multicolumn",
+      "blocks": {
+        "16431278010b8ca3c1-0": {
+          "type": "column",
+          "settings": {
+            "title": "Telefon",
+            "text": "<p>06-1-234-56-78<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "16431278010b8ca3c1-1": {
+          "type": "column",
+          "settings": {
+            "title": "Cím",
+            "text": "<p>1234, Szolnok<\/p><p>Valami utca 12. <\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16431278010b8ca3c1-0",
+        "16431278010b8ca3c1-1"
+      ],
+      "settings": {
+        "title": "Keressen minket",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false,
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "form": {
       "type": "contact-form",
       "settings": {
@@ -19,6 +59,7 @@
   },
   "order": [
     "main",
+    "16431278012f042340",
     "form"
   ]
 }
