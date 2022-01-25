@@ -40,6 +40,59 @@
         "show_text_below": true
       }
     },
+    "multi_column": {
+      "type": "multicolumn",
+      "blocks": {
+        "column1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Huawei-Logo-2006-2018.png",
+            "title": "",
+            "text": "",
+            "link_label": "Huawei",
+            "link": "shopify:\/\/collections\/huawei"
+          }
+        },
+        "column2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Fronius_Logo.png",
+            "title": "",
+            "text": "",
+            "link_label": "Fronius",
+            "link": "shopify:\/\/collections\/fronius"
+          }
+        },
+        "column3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/SolarEdge-Logo-768x229.png",
+            "title": "",
+            "text": "",
+            "link_label": "Solar Edge",
+            "link": "shopify:\/\/collections\/solar-edge"
+          }
+        }
+      },
+      "block_order": [
+        "column1",
+        "column2",
+        "column3"
+      ],
+      "settings": {
+        "title": "Márkáink",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": true,
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "rich_text": {
       "type": "rich-text",
       "disabled": true,
@@ -145,67 +198,14 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "multi_column": {
-      "type": "multicolumn",
-      "blocks": {
-        "column1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Huawei-Logo-2006-2018.png",
-            "title": "",
-            "text": "",
-            "link_label": "Huawei",
-            "link": "shopify:\/\/collections\/huawei"
-          }
-        },
-        "column2": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Fronius_Logo.png",
-            "title": "",
-            "text": "",
-            "link_label": "Fronius",
-            "link": "shopify:\/\/collections\/fronius"
-          }
-        },
-        "column3": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/SolarEdge-Logo-768x229.png",
-            "title": "",
-            "text": "",
-            "link_label": "Solar Edge",
-            "link": "shopify:\/\/collections\/solar-edge"
-          }
-        }
-      },
-      "block_order": [
-        "column1",
-        "column2",
-        "column3"
-      ],
-      "settings": {
-        "title": "Márkáink",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "column_alignment": "center",
-        "background_style": "primary",
-        "button_label": "",
-        "button_link": "",
-        "swipe_on_mobile": true,
-        "color_scheme": "background-1",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
     "image_banner",
+    "multi_column",
     "rich_text",
     "featured_products",
     "collage",
-    "video",
-    "multi_column"
+    "video"
   ]
 }
