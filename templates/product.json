@@ -94,10 +94,49 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "1643114455744e56cc": {
+      "type": "rich-text",
+      "blocks": {
+        "16431144558ea32600-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Regisztráció",
+            "heading_size": "h1"
+          }
+        },
+        "16431144558ea32600-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Az árak és a vásárlás csak regisztrált nagykereskedelmi partnereink számára érhető el. <\/p><p>Adja meg adatait és hamarosan felkeressük. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16431144558ea32600-0",
+        "16431144558ea32600-1"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "16431144170f2eae87": {
+      "type": "contact-form",
+      "settings": {
+        "heading": "",
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
-    "product-recommendations"
+    "product-recommendations",
+    "1643114455744e56cc",
+    "16431144170f2eae87"
   ]
 }
