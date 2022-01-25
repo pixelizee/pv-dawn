@@ -97,30 +97,29 @@
     "collage": {
       "type": "collage",
       "blocks": {
-        "video": {
-          "type": "video",
+        "6c9dacb9-854c-40d0-9e30-b982651717b5": {
+          "type": "image",
           "settings": {
-            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-            "description": "Describe the video",
+            "image": "shopify:\/\/shop_images\/markus-spiske-pwFr_1SUXRo-unsplash.jpg",
             "image_padding": false
           }
         },
         "product": {
           "type": "product",
           "settings": {
-            "product": "",
+            "product": "trina-solar-vertex-395wp-tsm-de09-08",
             "second_image": false
           }
         },
         "collection": {
           "type": "collection",
           "settings": {
-            "collection": ""
+            "collection": "napelemek"
           }
         }
       },
       "block_order": [
-        "video",
+        "6c9dacb9-854c-40d0-9e30-b982651717b5",
         "product",
         "collection"
       ],
