@@ -391,6 +391,7 @@
             </noscript>
           {%- when 'buy_buttons' -%}
             <div {{ block.shopify_attributes }}>
+              {% if customer %}
               <product-form class="product-form">
                 <div class="product-form__error-message-wrapper" role="alert" hidden>
                   <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-error" viewBox="0 0 13 13">
@@ -430,7 +431,7 @@
                   </div>
                 {%- endform -%}
               </product-form>
-
+              {% endif %}
               {{ 'component-pickup-availability.css' | asset_url | stylesheet_tag }}
 
               {%- assign pick_up_availabilities = product.selected_or_first_available_variant.store_availabilities | where: 'pick_up_enabled', true -%}
