@@ -20,8 +20,8 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "text": "Welcome to our store",
-              "color_scheme": "background-1",
+              "text": "Köszöntjük a PV Nagykereskedelmi weboldalán",
+              "color_scheme": "accent-1",
               "link": ""
             }
           }
