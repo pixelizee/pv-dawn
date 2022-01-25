@@ -49,6 +49,22 @@
           "settings": {
             "share_label": "Share"
           }
+        },
+        "d0a21e42-ea2f-4e09-8660-4b64a8435bba": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.napelem.teljesitmeny.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "c77c9cc2-f9dd-4ae3-829e-4e8258adac43": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Technikai jellemzők",
+            "icon": "eye",
+            "content": "<p>Telejesítmény: {{ product.metafields.napelem.teljesitmeny.value }}{{ product.metafields.inverter.max_teljesitmeny.value }}<\/p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -59,7 +75,9 @@
         "quantity_selector",
         "buy_buttons",
         "description",
-        "share"
+        "share",
+        "d0a21e42-ea2f-4e09-8660-4b64a8435bba",
+        "c77c9cc2-f9dd-4ae3-829e-4e8258adac43"
       ],
       "settings": {
         "enable_sticky_info": true,
