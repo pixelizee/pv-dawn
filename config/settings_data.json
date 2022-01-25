@@ -9,6 +9,9 @@
     "colors_background_2": "#F3F3F3",
     "type_header_font": "assistant_n4",
     "type_body_font": "assistant_n4",
+    "card_style": "card",
+    "card_color_scheme": "background-2",
+    "badge_position": "top left",
     "predictive_search_show_vendor": true,
     "sections": {
       "announcement-bar": {
