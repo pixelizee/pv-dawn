@@ -6,57 +6,137 @@
         "vendor": {
           "type": "text",
           "settings": {
-            "text_style": "uppercase",
-            "text": "{{ product.vendor }}"
+            "text": "{{ product.vendor }}",
+            "text_style": "uppercase"
           }
         },
         "title": {
-          "type": "title"
-        },
-        "caption": {
-          "type": "text",
+          "type": "title",
           "settings": {
-            "text": "{{ product.metafields.descriptors.subtitle.value }}",
-            "text_style": "subtitle"
           }
         },
         "price": {
-          "type": "price"
+          "type": "price",
+          "settings": {
+          }
         },
         "variant_picker": {
-          "type": "variant_picker"
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
         },
         "quantity_selector": {
-          "type": "quantity_selector"
+          "type": "quantity_selector",
+          "disabled": true,
+          "settings": {
+          }
         },
         "buy_buttons": {
-          "type": "buy_buttons"
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
         },
         "description": {
-          "type": "description"
+          "type": "description",
+          "settings": {
+          }
         },
         "share": {
-          "type": "share"
+          "type": "share",
+          "disabled": true,
+          "settings": {
+            "share_label": "Share"
+          }
+        },
+        "c77c9cc2-f9dd-4ae3-829e-4e8258adac43": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Technikai jellemzők",
+            "icon": "eye",
+            "content": "<p>Telejesítmény: {{ product.metafields.napelem.teljesitmeny.value }}{{ product.metafields.inverter.max_teljesitmeny.value }}<\/p><p>Méret: {{ product.metafields.general.meret.value }}<\/p><p>Súly: {{ product.metafields.general.suly | metafield_tag }}<\/p><p>Garancia: {{ product.metafields.general.garancia.value }}<\/p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
         "vendor",
         "title",
-        "subtitle",
         "price",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
         "description",
-        "share"
-      ]
+        "share",
+        "c77c9cc2-f9dd-4ae3-829e-4e8258adac43"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "gallery_layout": "stacked",
+        "media_size": "large",
+        "mobile_thumbnails": "hide",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1643114455744e56cc": {
+      "type": "rich-text",
+      "blocks": {
+        "16431144558ea32600-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Regisztráció",
+            "heading_size": "h1"
+          }
+        },
+        "16431144558ea32600-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Az árak és a vásárlás csak regisztrált nagykereskedelmi partnereink számára érhető el. <\/p><p>Adja meg adatait és hamarosan felkeressük. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16431144558ea32600-0",
+        "16431144558ea32600-1"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "16431144170f2eae87": {
+      "type": "contact-form",
+      "settings": {
+        "heading": "",
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     },
     "product-recommendations": {
-      "type": "product-recommendations"
+      "type": "product-recommendations",
+      "settings": {
+        "heading": "Ezek a termékek is érdekelhetik",
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
+    "1643114455744e56cc",
+    "16431144170f2eae87",
     "product-recommendations"
   ]
 }
