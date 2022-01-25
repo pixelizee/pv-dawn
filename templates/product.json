@@ -50,19 +50,12 @@
             "share_label": "Share"
           }
         },
-        "d0a21e42-ea2f-4e09-8660-4b64a8435bba": {
-          "type": "text",
-          "settings": {
-            "text": "{{ product.metafields.napelem.teljesitmeny.value }}",
-            "text_style": "subtitle"
-          }
-        },
         "c77c9cc2-f9dd-4ae3-829e-4e8258adac43": {
           "type": "collapsible_tab",
           "settings": {
             "heading": "Technikai jellemzők",
             "icon": "eye",
-            "content": "<p>Telejesítmény: {{ product.metafields.napelem.teljesitmeny.value }}{{ product.metafields.inverter.max_teljesitmeny.value }}<\/p>",
+            "content": "<p>Telejesítmény: {{ product.metafields.napelem.teljesitmeny.value }}{{ product.metafields.inverter.max_teljesitmeny.value }}<\/p><p>Méret: {{ product.metafields.general.meret.value }}<\/p><p>Súly: {{ product.metafields.general.suly | metafield_tag }}<\/p><p>Garancia: {{ product.metafields.general.garancia.value }}<\/p>",
             "page": ""
           }
         }
@@ -76,7 +69,6 @@
         "buy_buttons",
         "description",
         "share",
-        "d0a21e42-ea2f-4e09-8660-4b64a8435bba",
         "c77c9cc2-f9dd-4ae3-829e-4e8258adac43"
       ],
       "settings": {
